@@ -1,0 +1,14 @@
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\bin\Debug\Database1.dacpac
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\bin\Debug\Database1.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\bin\Debug\Database1.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\Database1.sqlproj.AssemblyReference.cache
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\Model.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\refactor.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\postdeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\predeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\Database1.sqlproj.CopyComplete
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\Database1.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\obj\Debug\Database1.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\bin\Debug\Database5.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\bin\Debug\Database5.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database1\bin\Debug\Database5.dacpac

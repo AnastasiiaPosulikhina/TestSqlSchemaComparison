@@ -1,0 +1,10 @@
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\bin\Debug\Database3.dacpac
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\bin\Debug\Database3.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\bin\Debug\Database3.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\obj\Debug\Database3.sqlproj.AssemblyReference.cache
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\obj\Debug\Model.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\obj\Debug\refactor.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\obj\Debug\postdeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\obj\Debug\predeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\obj\Debug\Database3.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database3\obj\Debug\Database3.pdb

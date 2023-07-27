@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Database1/Database Triggers/ddlDatabaseTriggerLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/ExtendedProperties.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Tables/Department.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Tables/Employee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Tables/EmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Tables/EmployeePayHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Tables/JobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Tables/Shift.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Views/vEmployee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Views/vEmployeeDepartment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Views/vEmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Views/vJobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Views/vJobCandidateEducation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/Views/vJobCandidateEmployment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/Address.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/AddressType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/BusinessEntity.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/BusinessEntityAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/BusinessEntityContact.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/ContactType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/CountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/EmailAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/Password.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/PersonPhone.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/PhoneNumberType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Tables/StateProvince.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Views/vAdditionalContactInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/Views/vStateProvinceCountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/BillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/Culture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/Document.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/Illustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/Location.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/Product.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductCategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductCostHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductDocument.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductInventory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductListPriceHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductModel.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductModelIllustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductModelProductDescriptionCulture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductReview.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ProductSubcategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/ScrapReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/TransactionHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/TransactionHistoryArchive.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/UnitMeasure.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/WorkOrder.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Tables/WorkOrderRouting.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Views/vProductAndDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Views/vProductModelCatalogDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/Views/vProductModelInstructions.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Purchasing/Tables/ProductVendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Purchasing/Tables/PurchaseOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Purchasing/Tables/PurchaseOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Purchasing/Tables/ShipMethod.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Purchasing/Tables/Vendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Purchasing/Views/vVendorWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Purchasing/Views/vVendorWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/CountryRegionCurrency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/CreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/Currency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/CurrencyRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/Customer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/PersonCreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesOrderHeaderSalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesPersonQuotaHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesTaxRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesTerritory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesTerritoryHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/ShoppingCartItem.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SpecialOffer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/SpecialOfferProduct.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Tables/Store.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Views/vIndividualCustomer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Views/vPersonDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Views/vSalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Views/vSalesPersonSalesByFiscalYears.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Views/vStoreWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Views/vStoreWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/Views/vStoreWithDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Security/HumanResources.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Security/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Security/Production.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Security/Purchasing.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Security/Sales.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/Storage/AW2016FullTextCatalog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetAccountingEndDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetAccountingStartDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetContactInformation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetDocumentStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetProductDealerPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetProductListPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetProductStandardCost.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetSalesOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetStock.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnLeadingZeros.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetBillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetEmployeeManagers.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetManagerEmployees.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspLogError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspPrintError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Tables/AWBuildVersion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Tables/DatabaseLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/Tables/ErrorLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/AccountNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/Flag.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/Name.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/NameStyle.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/OrderNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/Phone.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Database Triggers/ddlDatabaseTriggerLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/ExtendedProperties.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Tables/Department.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Tables/Employee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Tables/EmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Tables/EmployeePayHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Tables/JobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Tables/Shift.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Views/vEmployee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Views/vEmployeeDepartment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Views/vEmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Views/vJobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Views/vJobCandidateEducation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/Views/vJobCandidateEmployment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/Address.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/AddressType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/BusinessEntity.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/BusinessEntityAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/BusinessEntityContact.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/ContactType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/CountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/EmailAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/Password.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/PersonPhone.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/PhoneNumberType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Tables/StateProvince.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Views/vAdditionalContactInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/Views/vStateProvinceCountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/BillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/Culture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/Document.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/Illustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/Location.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/Product.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductCategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductCostHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductDocument.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductInventory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductListPriceHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductModel.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductModelIllustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductModelProductDescriptionCulture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductReview.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ProductSubcategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/ScrapReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/TransactionHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/TransactionHistoryArchive.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/UnitMeasure.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/WorkOrder.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Tables/WorkOrderRouting.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Views/vProductAndDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Views/vProductModelCatalogDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/Views/vProductModelInstructions.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Purchasing/Tables/ProductVendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Purchasing/Tables/PurchaseOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Purchasing/Tables/PurchaseOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Purchasing/Tables/ShipMethod.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Purchasing/Tables/Vendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Purchasing/Views/vVendorWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Purchasing/Views/vVendorWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/CountryRegionCurrency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/CreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/Currency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/CurrencyRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/Customer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/PersonCreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesOrderHeaderSalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesPersonQuotaHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesTaxRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesTerritory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesTerritoryHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/ShoppingCartItem.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SpecialOffer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/SpecialOfferProduct.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Tables/Store.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Views/vIndividualCustomer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Views/vPersonDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Views/vSalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Views/vSalesPersonSalesByFiscalYears.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Views/vStoreWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Views/vStoreWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/Views/vStoreWithDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Security/HumanResources.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Security/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Security/Production.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Security/Purchasing.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Security/Sales.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/Storage/AW2016FullTextCatalog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetAccountingEndDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetAccountingStartDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetContactInformation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetDocumentStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetProductDealerPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetProductListPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetProductStandardCost.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetSalesOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetStock.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnLeadingZeros.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetBillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetEmployeeManagers.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetManagerEmployees.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspLogError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspPrintError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Tables/AWBuildVersion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Tables/DatabaseLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/Tables/ErrorLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/AccountNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/Flag.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/Name.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/NameStyle.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/OrderNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/Phone.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database4/dbo/Tables/Table_2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Database4/dbo/Tables/Table_3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseEmpty/dbo/Tables/Table_2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseEmpty/dbo/Tables/Table_3.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Database Triggers/ddlDatabaseTriggerLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/Department.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/Employee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/EmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/EmployeePayHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/JobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/Shift.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vEmployee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vEmployeeDepartment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vEmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vJobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vJobCandidateEducation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vJobCandidateEmployment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/Address.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/AddressType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/BusinessEntity.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/BusinessEntityAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/BusinessEntityContact.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/ContactType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/CountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/EmailAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/Password.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/PersonPhone.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/PhoneNumberType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/StateProvince.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Views/vAdditionalContactInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Views/vStateProvinceCountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/BillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Culture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Document.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Illustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Location.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Product.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductCategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductCostHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductDocument.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductInventory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductListPriceHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductModel.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductModelIllustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductModelProductDescriptionCulture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductReview.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductSubcategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ScrapReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/TransactionHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/TransactionHistoryArchive.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/UnitMeasure.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/WorkOrder.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/WorkOrderRouting.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Views/vProductAndDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Views/vProductModelCatalogDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Views/vProductModelInstructions.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/ProductVendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/PurchaseOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/PurchaseOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/ShipMethod.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/Vendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Views/vVendorWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Views/vVendorWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/CountryRegionCurrency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/CreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/Currency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/CurrencyRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/Customer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/PersonCreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesOrderHeaderSalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesPersonQuotaHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesTaxRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesTerritory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesTerritoryHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/ShoppingCartItem.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SpecialOffer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SpecialOfferProduct.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/Store.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vIndividualCustomer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vPersonDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vSalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vSalesPersonSalesByFiscalYears.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vStoreWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vStoreWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vStoreWithDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/HumanResources.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Production.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Purchasing.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Sales.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Storage/AW2016FullTextCatalog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetAccountingEndDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetAccountingStartDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetContactInformation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetDocumentStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetProductDealerPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetProductListPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetProductStandardCost.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetSalesOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetStock.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnLeadingZeros.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetBillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetEmployeeManagers.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetManagerEmployees.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspLogError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspPrintError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/AWBuildVersion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/DatabaseLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/ErrorLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/Table_4.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/Table_4Audit.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/AccountNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/Flag.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/Name.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/NameStyle.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/OrderNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/Phone.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Database Triggers/ddlDatabaseTriggerLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/ExtendedProperties.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/Department.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/Employee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/EmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/EmployeePayHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/JobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/Shift.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vEmployee.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vEmployeeDepartment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vEmployeeDepartmentHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vJobCandidate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vJobCandidateEducation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vJobCandidateEmployment.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/Address.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/AddressType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/BusinessEntity.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/BusinessEntityAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/BusinessEntityContact.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/ContactType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/CountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/EmailAddress.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/Password.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/PersonPhone.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/PhoneNumberType.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Tables/StateProvince.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Views/vAdditionalContactInfo.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/Views/vStateProvinceCountryRegion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/BillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/Culture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/Document.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/Illustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/Location.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/Product.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductCategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductCostHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductDocument.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductInventory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductListPriceHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductModel.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductModelIllustration.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductModelProductDescriptionCulture.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductProductPhoto.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductReview.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductSubcategory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/ScrapReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/TransactionHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/TransactionHistoryArchive.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/UnitMeasure.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/WorkOrder.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Tables/WorkOrderRouting.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Views/vProductAndDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Views/vProductModelCatalogDescription.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/Views/vProductModelInstructions.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/ProductVendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/PurchaseOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/PurchaseOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/ShipMethod.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/Vendor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Purchasing/Views/vVendorWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Purchasing/Views/vVendorWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/CountryRegionCurrency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/CreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/Currency.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/CurrencyRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/Customer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/PersonCreditCard.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesOrderDetail.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesOrderHeader.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesOrderHeaderSalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesPersonQuotaHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesReason.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesTaxRate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesTerritory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesTerritoryHistory.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/ShoppingCartItem.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SpecialOffer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SpecialOfferProduct.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Tables/Store.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Views/vIndividualCustomer.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Views/vPersonDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Views/vSalesPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Views/vSalesPersonSalesByFiscalYears.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Views/vStoreWithAddresses.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Views/vStoreWithContacts.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/Views/vStoreWithDemographics.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Security/HumanResources.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Security/Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Security/Production.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Security/Purchasing.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Security/Sales.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/Storage/AW2016FullTextCatalog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetAccountingEndDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetAccountingStartDate.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetContactInformation.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetDocumentStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetProductDealerPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetProductListPrice.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetProductStandardCost.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetSalesOrderStatusText.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetStock.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnLeadingZeros.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetBillOfMaterials.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetEmployeeManagers.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetManagerEmployees.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspLogError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspPrintError.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Tables/AWBuildVersion.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Tables/DatabaseLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Tables/ErrorLog.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Tables/Table_4.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Tables/Table_4Audit.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/Tables/table_name222.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/AccountNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/Flag.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/Name.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/NameStyle.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/OrderNumber.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/Phone.sql" dialect="TSQL" />
+    <file url="PROJECT" dialect="TSQL" />
+  </component>
+</project>

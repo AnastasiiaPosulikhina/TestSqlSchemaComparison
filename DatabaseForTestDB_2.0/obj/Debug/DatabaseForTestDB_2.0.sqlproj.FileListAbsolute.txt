@@ -1,0 +1,10 @@
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\bin\Debug\DatabaseForTestDB_2.0.dacpac
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\obj\Debug\DatabaseForTestDB_2.0.sqlproj.AssemblyReference.cache
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\obj\Debug\Model.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\obj\Debug\refactor.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\obj\Debug\postdeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\obj\Debug\predeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\obj\Debug\DatabaseForTestDB_2.0.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\obj\Debug\DatabaseForTestDB_2.0.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\bin\Debug\DatabaseForTestDB_2.0.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\DatabaseForTestDB_2.0\bin\Debug\DatabaseForTestDB_2.0.pdb

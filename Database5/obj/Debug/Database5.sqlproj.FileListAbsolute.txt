@@ -1,0 +1,10 @@
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\bin\Debug\Database5.dacpac
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\bin\Debug\Database5.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\bin\Debug\Database5.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\obj\Debug\Database5.sqlproj.AssemblyReference.cache
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\obj\Debug\Model.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\obj\Debug\refactor.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\obj\Debug\postdeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\obj\Debug\predeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\obj\Debug\Database5.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database5\obj\Debug\Database5.pdb

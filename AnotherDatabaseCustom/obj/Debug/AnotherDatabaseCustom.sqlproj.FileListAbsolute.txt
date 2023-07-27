@@ -1,0 +1,10 @@
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\bin\Debug\AnotherDatabaseCustom.dacpac
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\bin\Debug\AnotherDatabaseCustommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\bin\Debug\AnotherDatabaseCustommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\obj\Debug\AnotherDatabaseCustom.sqlproj.AssemblyReference.cache
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\obj\Debug\Model.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\obj\Debug\refactor.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\obj\Debug\postdeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\obj\Debug\predeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\obj\Debug\AnotherDatabaseCustommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\AnotherDatabaseCustom\obj\Debug\AnotherDatabaseCustommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm.pdb

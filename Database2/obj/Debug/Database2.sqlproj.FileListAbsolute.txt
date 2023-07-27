@@ -1,0 +1,10 @@
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\bin\Debug\Database2.dacpac
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\bin\Debug\Database2.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\bin\Debug\Database2.pdb
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\obj\Debug\Database2.sqlproj.AssemblyReference.cache
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\obj\Debug\Model.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\obj\Debug\refactor.xml
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\obj\Debug\postdeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\obj\Debug\predeploy.sql
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\obj\Debug\Database2.dll
+C:\Users\Anastasiia.Posulikhi\source\repos\TestSqlSchemaComparison\Database2\obj\Debug\Database2.pdb

@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="f54ceeb8-0523-4e9f-9b07-f3395c733f74" />
+          <option name="name" value="NewProj1" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/NewProj1/Database Triggers/ddlDatabaseTriggerLog.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetAccountingEndDate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetAccountingStartDate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetContactInformation.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetDocumentStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetProductDealerPrice.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetProductListPrice.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetProductStandardCost.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetSalesOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnGetStock.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Functions/ufnLeadingZeros.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Stored Procedures/uspGetBillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Stored Procedures/uspGetEmployeeManagers.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Stored Procedures/uspGetManagerEmployees.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Stored Procedures/uspLogError.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Stored Procedures/uspPrintError.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/dbo/Tables/Table_4Audit.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Tables/Department.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Tables/Employee.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Tables/EmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Tables/EmployeePayHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Tables/JobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Tables/Shift.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Views/vEmployee.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Views/vEmployeeDepartment.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Views/vEmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Views/vJobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Views/vJobCandidateEducation.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/Views/vJobCandidateEmployment.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/Address.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/AddressType.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/BusinessEntity.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/BusinessEntityAddress.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/BusinessEntityContact.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/ContactType.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/CountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/EmailAddress.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/Password.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/Person.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/PersonPhone.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/PhoneNumberType.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Tables/StateProvince.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Views/vAdditionalContactInfo.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/Views/vStateProvinceCountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/BillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/Culture.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/Document.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/Illustration.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/Location.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/Product.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductCategory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductCostHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductDescription.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductDocument.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductInventory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductListPriceHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductModel.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductModelIllustration.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductModelProductDescriptionCulture.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductReview.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ProductSubcategory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/ScrapReason.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/TransactionHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/TransactionHistoryArchive.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/UnitMeasure.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/WorkOrder.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Tables/WorkOrderRouting.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Views/vProductAndDescription.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Views/vProductModelCatalogDescription.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/Views/vProductModelInstructions.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Purchasing/Tables/ProductVendor.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Purchasing/Tables/PurchaseOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Purchasing/Tables/PurchaseOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Purchasing/Tables/ShipMethod.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Purchasing/Tables/Vendor.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Purchasing/Views/vVendorWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Purchasing/Views/vVendorWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/CountryRegionCurrency.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/CreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/Currency.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/CurrencyRate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/Customer.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/PersonCreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesOrderHeaderSalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesPersonQuotaHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesTaxRate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesTerritory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SalesTerritoryHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/ShoppingCartItem.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SpecialOffer.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/SpecialOfferProduct.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Tables/Store.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Views/vIndividualCustomer.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Views/vPersonDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Views/vSalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Views/vSalesPersonSalesByFiscalYears.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Views/vStoreWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Views/vStoreWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/Views/vStoreWithDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Security/HumanResources.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Security/Person.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Security/Production.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Security/Purchasing.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Security/Sales.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/Storage/AW2016FullTextCatalog.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj1/ExtendedProperties.sql" />
+            </array>
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/NewProj1" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="350d8b0f-5ec0-4131-be89-a5ffb9a43c22" />
+          <option name="name" value="NewProj2" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/NewProj2" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="81d2d773-4ff5-46c3-a21f-8b0d7f2e9095" />
+          <option name="name" value="Database3" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database3" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="868e6fde-92b2-4e8f-a669-2cf6ce2c7744" />
+          <option name="name" value="Database4" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/Database4/dbo/Tables/Table_2.sql" />
+              <option value="file://$PROJECT_DIR$/Database4/dbo/Tables/Table_3.sql" />
+            </array>
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database4" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="d29a5ae7-6bd9-4dce-ae46-4bdd7a880a15" />
+          <option name="name" value="Database5" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database5" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="e74f1358-99fe-4e33-a897-3171acceec08" />
+          <option name="name" value="DatabaseWithTargetPlatform22" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/DatabaseWithTargetPlatform22" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="145d1570-9ace-4d1d-b0ba-bab41ba32db9" />
+          <option name="name" value="DatabaseEmpty" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/DatabaseEmpty/dbo/Tables/Table_3.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseEmpty/dbo/Tables/Table_2.sql" />
+            </array>
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/DatabaseEmpty" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="f00600d8-2e78-4be5-a3c1-971fe34e124c" />
+          <option name="name" value="Database6" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database6" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="774568a7-4a35-4b05-aae1-7369980899e4" />
+          <option name="name" value="Database7" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database7" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="06e90964-76c5-40b7-8741-19413357bb86" />
+          <option name="name" value="AnotherDatabaseCustom" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/AnotherDatabaseCustom" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="1b03b85d-96ce-4449-aa56-35edc49aa48d" />
+          <option name="name" value="Database8" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database8" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="559533b6-7301-4432-b4c7-f38c0b2032ba" />
+          <option name="name" value="Database9" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array />
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database9" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="9ce746ec-79c7-445a-8017-5e0882bef5dc" />
+          <option name="name" value="Database1" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/Database1/Database Triggers/ddlDatabaseTriggerLog.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetAccountingEndDate.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetAccountingStartDate.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetContactInformation.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetDocumentStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetProductDealerPrice.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetProductListPrice.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetProductStandardCost.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetSalesOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnGetStock.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Functions/ufnLeadingZeros.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetBillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetEmployeeManagers.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetManagerEmployees.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspLogError.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Stored Procedures/uspPrintError.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Tables/AWBuildVersion.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Tables/DatabaseLog.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/Tables/ErrorLog.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/AccountNumber.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/Flag.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/Name.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/NameStyle.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/OrderNumber.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/dbo/User Defined Types/Phone.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Tables/Department.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Tables/Employee.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Tables/EmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Tables/EmployeePayHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Tables/JobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Tables/Shift.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Views/vEmployee.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Views/vEmployeeDepartment.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Views/vEmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Views/vJobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Views/vJobCandidateEducation.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/Views/vJobCandidateEmployment.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/Address.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/AddressType.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/BusinessEntity.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/BusinessEntityAddress.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/BusinessEntityContact.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/ContactType.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/CountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/EmailAddress.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/Password.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/Person.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/PersonPhone.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/PhoneNumberType.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Tables/StateProvince.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Views/vAdditionalContactInfo.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/Views/vStateProvinceCountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/BillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/Culture.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/Document.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/Illustration.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/Location.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/Product.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductCategory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductCostHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductDescription.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductDocument.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductInventory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductListPriceHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductModel.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductModelIllustration.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductModelProductDescriptionCulture.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductReview.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ProductSubcategory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/ScrapReason.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/TransactionHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/TransactionHistoryArchive.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/UnitMeasure.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/WorkOrder.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Tables/WorkOrderRouting.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Views/vProductAndDescription.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Views/vProductModelCatalogDescription.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/Views/vProductModelInstructions.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Purchasing/Tables/ProductVendor.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Purchasing/Tables/PurchaseOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Purchasing/Tables/PurchaseOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Purchasing/Tables/ShipMethod.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Purchasing/Tables/Vendor.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Purchasing/Views/vVendorWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Purchasing/Views/vVendorWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/CountryRegionCurrency.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/CreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/Currency.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/CurrencyRate.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/Customer.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/PersonCreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesOrderHeaderSalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesPersonQuotaHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesTaxRate.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesTerritory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SalesTerritoryHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/ShoppingCartItem.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SpecialOffer.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/SpecialOfferProduct.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Tables/Store.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Views/vIndividualCustomer.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Views/vPersonDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Views/vSalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Views/vSalesPersonSalesByFiscalYears.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Views/vStoreWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Views/vStoreWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/Views/vStoreWithDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Security/HumanResources.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Security/Person.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Security/Production.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Security/Purchasing.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Security/Sales.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/Storage/AW2016FullTextCatalog.sql" />
+              <option value="file://$PROJECT_DIR$/Database1/ExtendedProperties.sql" />
+            </array>
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database1" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="0cdc6a36-2014-49b4-8ddd-609c7d79600a" />
+          <option name="name" value="Database2" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/Database2/Database Triggers/ddlDatabaseTriggerLog.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetAccountingEndDate.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetAccountingStartDate.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetContactInformation.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetDocumentStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetProductDealerPrice.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetProductListPrice.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetProductStandardCost.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetSalesOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnGetStock.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Functions/ufnLeadingZeros.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetBillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetEmployeeManagers.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetManagerEmployees.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspLogError.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Stored Procedures/uspPrintError.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Tables/AWBuildVersion.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Tables/DatabaseLog.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/Tables/ErrorLog.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/AccountNumber.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/Flag.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/Name.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/NameStyle.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/OrderNumber.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/dbo/User Defined Types/Phone.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Tables/Department.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Tables/Employee.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Tables/EmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Tables/EmployeePayHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Tables/JobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Tables/Shift.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Views/vEmployee.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Views/vEmployeeDepartment.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Views/vEmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Views/vJobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Views/vJobCandidateEducation.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/Views/vJobCandidateEmployment.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/Address.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/AddressType.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/BusinessEntity.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/BusinessEntityAddress.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/BusinessEntityContact.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/ContactType.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/CountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/EmailAddress.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/Password.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/Person.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/PersonPhone.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/PhoneNumberType.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Tables/StateProvince.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Views/vAdditionalContactInfo.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/Views/vStateProvinceCountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/BillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/Culture.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/Document.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/Illustration.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/Location.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/Product.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductCategory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductCostHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductDescription.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductDocument.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductInventory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductListPriceHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductModel.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductModelIllustration.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductModelProductDescriptionCulture.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductReview.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ProductSubcategory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/ScrapReason.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/TransactionHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/TransactionHistoryArchive.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/UnitMeasure.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/WorkOrder.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Tables/WorkOrderRouting.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Views/vProductAndDescription.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Views/vProductModelCatalogDescription.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/Views/vProductModelInstructions.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Purchasing/Tables/ProductVendor.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Purchasing/Tables/PurchaseOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Purchasing/Tables/PurchaseOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Purchasing/Tables/ShipMethod.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Purchasing/Tables/Vendor.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Purchasing/Views/vVendorWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Purchasing/Views/vVendorWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/CountryRegionCurrency.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/CreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/Currency.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/CurrencyRate.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/Customer.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/PersonCreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesOrderHeaderSalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesPersonQuotaHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesTaxRate.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesTerritory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SalesTerritoryHistory.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/ShoppingCartItem.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SpecialOffer.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/SpecialOfferProduct.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Tables/Store.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Views/vIndividualCustomer.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Views/vPersonDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Views/vSalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Views/vSalesPersonSalesByFiscalYears.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Views/vStoreWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Views/vStoreWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/Views/vStoreWithDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Security/HumanResources.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Security/Person.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Security/Production.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Security/Purchasing.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Security/Sales.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/Storage/AW2016FullTextCatalog.sql" />
+              <option value="file://$PROJECT_DIR$/Database2/ExtendedProperties.sql" />
+            </array>
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/Database2" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="f8604cd9-a82d-4ece-b61d-2b1233fe16f8" />
+          <option name="name" value="DatabaseForTestDB_2.0" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Database Triggers/ddlDatabaseTriggerLog.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetAccountingEndDate.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetAccountingStartDate.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetContactInformation.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetDocumentStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetProductDealerPrice.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetProductListPrice.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetProductStandardCost.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetSalesOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnGetStock.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Functions/ufnLeadingZeros.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetBillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetEmployeeManagers.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetManagerEmployees.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspLogError.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Stored Procedures/uspPrintError.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/AccountNumber.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/Flag.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/Name.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/NameStyle.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/OrderNumber.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/User Defined Types/Phone.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/AWBuildVersion.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/DatabaseLog.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/ErrorLog.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/Table_4.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/dbo/Tables/Table_4Audit.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/Department.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/Employee.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/EmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/EmployeePayHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/JobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Tables/Shift.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vEmployee.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vEmployeeDepartment.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vEmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vJobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vJobCandidateEducation.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/Views/vJobCandidateEmployment.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/Address.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/AddressType.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/BusinessEntity.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/BusinessEntityAddress.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/BusinessEntityContact.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/ContactType.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/CountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/EmailAddress.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/Password.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/Person.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/PersonPhone.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/PhoneNumberType.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Tables/StateProvince.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Views/vAdditionalContactInfo.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/Views/vStateProvinceCountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/BillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Culture.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Document.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Illustration.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Location.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/Product.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductCategory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductCostHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductDescription.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductDocument.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductInventory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductListPriceHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductModel.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductModelIllustration.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductModelProductDescriptionCulture.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductReview.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ProductSubcategory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/ScrapReason.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/TransactionHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/TransactionHistoryArchive.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/UnitMeasure.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/WorkOrder.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Tables/WorkOrderRouting.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Views/vProductAndDescription.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Views/vProductModelCatalogDescription.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/Views/vProductModelInstructions.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/ProductVendor.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/PurchaseOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/PurchaseOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/ShipMethod.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Tables/Vendor.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Views/vVendorWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Purchasing/Views/vVendorWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/CountryRegionCurrency.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/CreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/Currency.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/CurrencyRate.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/Customer.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/PersonCreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesOrderHeaderSalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesPersonQuotaHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesTaxRate.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesTerritory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SalesTerritoryHistory.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/ShoppingCartItem.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SpecialOffer.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/SpecialOfferProduct.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Tables/Store.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vIndividualCustomer.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vPersonDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vSalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vSalesPersonSalesByFiscalYears.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vStoreWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vStoreWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/Views/vStoreWithDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/HumanResources.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Person.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Production.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Purchasing.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Security/Sales.sql" />
+              <option value="file://$PROJECT_DIR$/DatabaseForTestDB_2.0/Storage/AW2016FullTextCatalog.sql" />
+            </array>
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/DatabaseForTestDB_2.0" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="6451a7a1-2a15-464d-9fe1-7efa83b37985" />
+          <option name="name" value="NewProj3" />
+          <option name="dbmsName" value="MSSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/NewProj3/Database Triggers/ddlDatabaseTriggerLog.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetAccountingEndDate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetAccountingStartDate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetContactInformation.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetDocumentStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetProductDealerPrice.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetProductListPrice.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetProductStandardCost.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetPurchaseOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetSalesOrderStatusText.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnGetStock.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Functions/ufnLeadingZeros.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetBillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetEmployeeManagers.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetManagerEmployees.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspGetWhereUsedProductID.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspLogError.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Stored Procedures/uspPrintError.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Tables/AWBuildVersion.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Tables/DatabaseLog.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Tables/ErrorLog.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Tables/Table_4.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Tables/Table_4Audit.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/Tables/table_name222.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/AccountNumber.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/Flag.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/Name.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/NameStyle.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/OrderNumber.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/dbo/User Defined Types/Phone.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Stored Procedures/uspUpdateEmployeeHireInfo.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Stored Procedures/uspUpdateEmployeeLogin.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Stored Procedures/uspUpdateEmployeePersonalInfo.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/Department.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/Employee.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/EmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/EmployeePayHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/JobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Tables/Shift.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vEmployee.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vEmployeeDepartment.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vEmployeeDepartmentHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vJobCandidate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vJobCandidateEducation.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/Views/vJobCandidateEmployment.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/HumanResources/XMLSchemaCollections/HRResumeSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/Address.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/AddressType.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/BusinessEntity.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/BusinessEntityAddress.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/BusinessEntityContact.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/ContactType.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/CountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/EmailAddress.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/Password.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/Person.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/PersonPhone.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/PhoneNumberType.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Tables/StateProvince.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Views/vAdditionalContactInfo.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/Views/vStateProvinceCountryRegion.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/XMLSchemaCollections/AdditionalContactInfoSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Person/XMLSchemaCollections/IndividualSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/BillOfMaterials.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/Culture.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/Document.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/Illustration.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/Location.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/Product.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductCategory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductCostHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductDescription.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductDocument.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductInventory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductListPriceHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductModel.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductModelIllustration.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductModelProductDescriptionCulture.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductProductPhoto.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductReview.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ProductSubcategory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/ScrapReason.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/TransactionHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/TransactionHistoryArchive.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/UnitMeasure.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/WorkOrder.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Tables/WorkOrderRouting.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Views/vProductAndDescription.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Views/vProductModelCatalogDescription.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/Views/vProductModelInstructions.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/XMLSchemaCollections/ManuInstructionsSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Production/XMLSchemaCollections/ProductDescriptionSchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/ProductVendor.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/PurchaseOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/PurchaseOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/ShipMethod.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Purchasing/Tables/Vendor.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Purchasing/Views/vVendorWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Purchasing/Views/vVendorWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/CountryRegionCurrency.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/CreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/Currency.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/CurrencyRate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/Customer.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/PersonCreditCard.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesOrderDetail.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesOrderHeader.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesOrderHeaderSalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesPersonQuotaHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesReason.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesTaxRate.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesTerritory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SalesTerritoryHistory.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/ShoppingCartItem.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SpecialOffer.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/SpecialOfferProduct.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Tables/Store.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Views/vIndividualCustomer.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Views/vPersonDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Views/vSalesPerson.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Views/vSalesPersonSalesByFiscalYears.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Views/vStoreWithAddresses.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Views/vStoreWithContacts.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/Views/vStoreWithDemographics.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Sales/XMLSchemaCollections/StoreSurveySchemaCollection.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Security/HumanResources.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Security/Person.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Security/Production.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Security/Purchasing.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Security/Sales.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/Storage/AW2016FullTextCatalog.sql" />
+              <option value="file://$PROJECT_DIR$/NewProj3/ExtendedProperties.sql" />
+            </array>
+          </option>
+          <option name="remarks" value="Database Project" />
+          <option name="outPath" value="$PROJECT_DIR$/NewProj3" />
+          <option name="codeStyleName" value="Visual Studio Database Project" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+          <option name="scriptOptions">
+            <map>
+              <entry key="ConstraintContext" value="CONSTRAINT_IN_TABLE" />
+              <entry key="MsVsDdlCompatibility" value="1" />
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+              <entry key="Reformat" value="1" />
+              <entry key="UseSemicolon" value="1" />
+            </map>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
